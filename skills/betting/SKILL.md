@@ -2,7 +2,7 @@
 name: Betting
 slug: betting
 version: 1.0.0
-homepage: https://clawic.com/skills/betting
+homepage: https://clawhub.ai/ivangdavila/betting
 description: Evaluate betting opportunities with line shopping, bankroll discipline, market checks, and risk filters before any stake is placed.
 changelog: Introduces the Clean Ticket Protocol, bankroll sizing rules, and fast rejection checks for weak bets.
 metadata: {"clawdbot":{"emoji":"$","requires":{"bins":[]},"os":["linux","darwin","win32"],"configPaths":["~/betting/"]}}
