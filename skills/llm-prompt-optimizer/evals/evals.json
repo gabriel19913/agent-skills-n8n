@@ -1,0 +1,23 @@
+{
+  "skill_name": "llm-prompt-optimizer",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Tenho uma ideia vaga: quero um prompt para um agente que pegue transcricoes de reunioes e transforme em resumo executivo com decisoes, riscos e proximos passos. Quero que a skill monte um prompt final em markdown, pronto para copiar e colar.",
+      "expected_output": "Retorna um prompt estruturado em Markdown com contexto, tarefa, formato e restricoes, provavelmente em formato de mega prompt ou template universal.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "Melhore este prompt: 'analise esse produto e me diga o que acha'. Quero algo mais util para pesquisa de mercado, com resposta em tabela markdown e foco em publico-alvo, pontos fortes, fraquezas e posicionamento.",
+      "expected_output": "Transforma o prompt vago em uma instrucao objetiva, adiciona contexto minimo, formato de tabela e criterios claros de analise.",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "Quero criar um system prompt para um agente de code review em TypeScript. Ele deve ser direto, priorizar bugs reais e riscos de seguranca, e evitar feedback generico. Se a tarefa for grande demais, aceite quebrar em etapas.",
+      "expected_output": "Retorna um mega prompt em Markdown com identidade, missão, regras de comportamento, formato de resposta e possivel orientacao de chaining.",
+      "files": []
+    }
+  ]
+}
